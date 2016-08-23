@@ -52,7 +52,7 @@
 								</p>
 								<span class="text-white alt-font"><i class="icon icon_calendar"></i><%= post.created_at.strftime("%A, %b, %d") %>
 									
-								</span><br><span class="text-white alt-font link-text"><%= link_to 'See More', post %></span>
+								</span><br><span class="text-white alt-font link-text"><%= link_to 'See More', post, data: { no_turbolink: true} %></span>
 							</a>
 						</div>	
 					</div><!--end of row-->
